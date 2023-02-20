@@ -1,0 +1,10 @@
+/** @format */
+
+.flex {
+  display: flex;
+  text-align: center;
+  list-style: none;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+}
