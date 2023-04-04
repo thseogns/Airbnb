@@ -13,12 +13,12 @@
   z-index: 99999;
   flex-direction: column;
   position: fixed;
-  top: calc(50% - (87% / 2));
+  top: calc(50% - (684px / 2));
   left: calc(50% - (568px / 2));
   background-color: white;
   width: 568px;
-  height: 87%;
-  max-height:684px;
+  height: 684px;
+ 
   border-radius: 15px;
   padding: 24px;
   box-sizing: border-box;
