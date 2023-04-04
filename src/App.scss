@@ -1,0 +1,17 @@
+/** @format */
+
+a {
+  text-decoration: none;
+}
+
+.navTop {
+  .nav-item {
+    color: white;
+    margin-left: 20px;
+    transition: 0.3s ease-out;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

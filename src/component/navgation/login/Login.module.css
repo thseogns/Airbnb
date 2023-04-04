@@ -1,0 +1,101 @@
+/** @format */
+
+.background {
+  position: fixed;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+}
+.loginBox {
+  display: flex;
+  z-index: 99999;
+  flex-direction: column;
+  position: fixed;
+  top: calc(50% - (87% / 2));
+  left: calc(50% - (568px / 2));
+  background-color: white;
+  width: 568px;
+  height: 87%;
+  border-radius: 15px;
+  padding: 24px;
+  box-sizing: border-box;
+}
+.textBox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+.xBox {
+  position: absolute;
+  left: 0px;
+}
+.welcome {
+  font-size: 20px;
+  padding: 24px 0;
+}
+.continuBox {
+  padding-top: 16px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #b6b6b6;
+  flex-direction: column;
+  position: relative;
+}
+.continu {
+  background-color: coral;
+  border: none;
+  border-radius: 10px;
+  width: 520px;
+  height: 48px;
+  font-size: 19px;
+  color: white;
+}
+.continuBox div {
+  background-color: white;
+  position: absolute;
+  bottom: -8px;
+  font-size: 12px;
+  padding: 0 15px;
+}
+.persnal span {
+  font-size: 12px;
+}
+.persnal {
+  padding-top: 6px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.persnal strong {
+  color: black;
+  text-decoration: underline;
+}
+.addressBox {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 12px;
+  width: 520px;
+  height: 100px;
+}
+.addressBox div:first-child {
+  border-bottom: 1px solid black;
+}
+.addressBox div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addressBox select,
+input {
+  border: none;
+  width: 500px;
+}

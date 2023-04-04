@@ -1,0 +1,36 @@
+/** @format */
+
+.right__info {
+  display: flex;
+  width: 33.3%;
+  justify-content: flex-end;
+}
+.ex {
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  padding: 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.ex:hover {
+  background-color: #eee;
+}
+.size {
+  display: flex;
+
+  align-items: center;
+  font-size: 20px;
+}
+.info {
+  position: relative;
+  background-color: transparent;
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 50px;
+  padding: 12px;
+  color: rgb(128, 128, 128);
+  gap: 12px;
+  cursor: pointer;
+}
+.info:hover {
+}

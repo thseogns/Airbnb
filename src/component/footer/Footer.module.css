@@ -1,0 +1,38 @@
+/** @format */
+
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.button_cover {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px auto;
+
+  width: 94%;
+}
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  border-top: 1.4px solid rgb(168, 168, 168);
+}
+.footer a,
+span {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer p {
+  border-top: 1.5px solid rgb(168, 168, 168);
+  width: 94%;
+  margin: auto;
+  padding: 10px 0;
+  font-size: 10px;
+  color: rgb(168, 168, 168);
+}
